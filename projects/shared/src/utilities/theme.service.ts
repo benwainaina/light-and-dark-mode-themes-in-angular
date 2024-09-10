@@ -13,11 +13,11 @@ export class AppThemeService {
     null
   );
   private _currentMode$: BehaviorSubject<TMode> = new BehaviorSubject<TMode>(
-    'light'
+    'dark'
   );
 
   constructor() {
-    this._updateRootMode('light', 'light');
+    this._updateRootMode('dark', 'dark');
   }
 
   private _updateRootMode = (oldMode: TMode | '', newMode: TMode) => {

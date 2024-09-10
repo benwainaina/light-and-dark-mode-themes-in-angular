@@ -1,1 +1,11 @@
-<h1 class="font-poppins">profile</h1>
+<div class="wrapper poppins-bold {{ appThemeService.getMode() | async }}">
+  <h4>Welcome back</h4>
+  <h1>benson</h1>
+  <img
+    src="{{
+      '/assets/' + (appThemeService.getMode() | async) + '-profile.png'
+    }}"
+    alt=""
+  />
+  <h3>You stop growing when you stop learning.</h3>
+</div>
