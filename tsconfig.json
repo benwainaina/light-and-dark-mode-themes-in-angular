@@ -3,6 +3,20 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "auth": [
+        "./dist/auth"
+      ],
+      "home": [
+        "./dist/home"
+      ],
+      "profile": [
+        "./dist/profile"
+      ],
+      "shared": [
+        "./dist/shared"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,

@@ -1,0 +1,26 @@
+.wrapper {
+  .go-to-profile {
+    width: fit-content;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  &.light {
+    color: black;
+
+    .go-to-profile {
+      background-color: black;
+      color: white;
+      box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.25);
+    }
+  }
+  &.dark {
+    color: white;
+
+    .go-to-profile {
+      background-color: white;
+      color: black;
+      box-shadow: 1px 1px 12px rgba(255, 255, 255, 0.25);
+    }
+  }
+}
