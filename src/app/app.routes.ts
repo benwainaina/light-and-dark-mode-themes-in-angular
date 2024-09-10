@@ -15,12 +15,5 @@ export const routes: Routes = [
         (c) => c.ProfileComponent
       ),
   },
-  {
-    path: 'auth',
-    loadComponent: () =>
-      import('../../projects/auth/src/lib/auth.component').then(
-        (c) => c.AuthComponent
-      ),
-  },
   { path: '', pathMatch: 'full', redirectTo: 'home' },
 ];
