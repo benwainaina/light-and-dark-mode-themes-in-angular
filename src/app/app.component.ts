@@ -1,12 +1,12 @@
 import { Component, inject, Inject } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
-import {
-  modeUtility,
-  TMode,
-} from '../../projects/shared/src/utilities/theme.utility';
+
 import { Observable } from 'rxjs';
 import { AsyncPipe, CommonModule, NgClass, NgFor, NgIf } from '@angular/common';
-import { AppThemeService } from '../../projects/shared/src/utilities/theme.service';
+import {
+  AppThemeService,
+  TMode,
+} from '../../projects/shared/src/utilities/theme.service';
 import { BrowserModule } from '@angular/platform-browser';
 
 @Component({
